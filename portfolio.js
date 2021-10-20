@@ -1,11 +1,11 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Josh Daos",
+	title: "Hello, I am Josh Daos",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A Software Developer who is passionate about growing and learning in Tech.",
+	resumeLink: "https://docs.google.com/document/d/1gfnYKaXBJjuyXxL58a5mCCaTVsBt3pqJ-EM7821S-jc/edit?usp=sharing",
 };
 
 export const openSource = {
@@ -15,11 +15,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com",
+	instagram: "https://www.instagram.com/josh_develops/",
+	twitter: "https://twitter.com/joshdaos",
+	github: "https://github.com/joshdaos",
+	linkedin: "https://www.linkedin.com/in/joshua-daos/",
 };
 
 export const skillsSection = {
