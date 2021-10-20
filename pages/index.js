@@ -19,7 +19,7 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Josh Daos",
 					description:
 						"A passionate Full Stack Web Developer and Mobile App Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
