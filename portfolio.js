@@ -1,10 +1,10 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Josh Daos",
+	name: "Joshua Daos",
 	title: "Hello, I am Josh Daos",
 	description:
-		"A Software Developer who is passionate about growing and learning in Tech.",
+		"Driven by my curiosity in tech & possessing a passion for solving complex problems, I am a Software Engineer who enjoys transforming applications from logic to production.",
 	resumeLink: "https://docs.google.com/document/d/1gfnYKaXBJjuyXxL58a5mCCaTVsBt3pqJ-EM7821S-jc/edit?usp=sharing",
 };
 
@@ -15,7 +15,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com",
+	// facebook: "https://www.facebook.com",
 	instagram: "https://www.instagram.com/josh_develops/",
 	twitter: "https://twitter.com/joshdaos",
 	github: "https://github.com/joshdaos",
@@ -25,16 +25,16 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"Software Developer who is passionate about learning and growing in Tech.",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Develop highly interactive Front end / User Interfaces for your web applications"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Progressive Web Applications built with Express, React, and Django"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Integration of third party services such as Firebase, AWS, Etc."
 		),
 	],
 
@@ -67,14 +67,14 @@ export const skillsSection = {
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
-		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
-		},
+		// {
+		// 	skillName: "flutter",
+		// 	fontAwesomeClassname: "logos:flutter",
+		// },
+		// {
+		// 	skillName: "swift",
+		// 	fontAwesomeClassname: "vscode-icons:file-type-swift",
+		// },
 		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
@@ -103,21 +103,21 @@ export const skillsSection = {
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
+		// {
+		// 	skillName: "docker",
+		// 	fontAwesomeClassname: "logos:docker-icon",
+		// },
 	],
 };
 
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "80", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "50",
 	},
 	{
 		Stack: "Programming",
@@ -127,34 +127,34 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "General Assembly",
+		subHeader: "Software Engineering Immersive",
+		duration: "March 2021 - June 2021",
+		desc: "Full-Stack Software Engineering Immersive Bootcamp that consists of 500+ hours of professional training over 12 weeks. Led by qualified instructors, this program is focused on technical training such as; understanding programming languages, frameworks, libraries, logical thinking, cooperative teamwork, etc. to ensure skills to build full-stack web applications/websites.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Optimized solutions to computer software problems through algorithms, data structures, and scalable code while implementing industry methods to develop full-stack web applications.",
+			"Translated logic into code while collaborating with user experience and UI designs to produce completed fully functional applications for an immersive experience.",
 		],
 	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+	// {
+	// 	schoolName: "Harvard",
+	// 	subHeader: "Master of Science in Computer Science",
+	// 	duration: "September 2017 - April 2019",
+	// 	desc: "Participated in the research of XXX and published 3 papers.",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
+	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	],
+	// },
+	// {
+	// 	schoolName: "Stanford University",
+	// 	subHeader: "Bachelor of Science in Computer Science",
+	// 	duration: "September 2013 - April 2017",
+	// 	desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+	// 	descBullets: [
+	// 		"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+	// 	],
+	// },
 ];
 
 export const experience = [
@@ -186,15 +186,33 @@ export const experience = [
 ];
 
 export const projects = [
+	// {
+	// 	name: "lorem ipsum",
+	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+	// 	link: "https://example.com",
+	// },
+	// {
+	// 	name: "lorem ipsum",
+	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+	// 	github: "https://github.com/1hanzla100",
+	// },
 	{
 		name: "lorem ipsum",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		github: "https://github.com/1hanzla100",
 		link: "https://example.com",
 	},
 	{
 		name: "lorem ipsum",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
 		github: "https://github.com/1hanzla100",
+		link: "https://example.com",
+	},
+	{
+		name: "lorem ipsum",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		github: "https://github.com/1hanzla100",
+		link: "https://example.com",
 	},
 	{
 		name: "lorem ipsum",

@@ -19,7 +19,7 @@ const SocialLinks = () => {
 					<i className="fa fa-twitter" />
 				</span>
 			</Button>
-			<Button
+			{/* <Button
 				className="btn-icon-only rounded-circle ml-1"
 				color="facebook"
 				href={socialLinks.facebook}
@@ -30,7 +30,7 @@ const SocialLinks = () => {
 				<span className="btn-inner--icon">
 					<i className="fa fa-facebook-square" />
 				</span>
-			</Button>
+			</Button> */}
 			<Button
 				className="btn-icon-only rounded-circle ml-1"
 				color="instagram"
