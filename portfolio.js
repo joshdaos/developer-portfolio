@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Joshua Daos",
-	title: "Hello, I am Josh Daos",
+	title: "Hello all! I'm Josh Daos",
 	description:
 		"Driven by my curiosity in tech & possessing a passion for solving complex problems, I am a Software Engineer who enjoys transforming applications from logic to production.",
 	resumeLink: "https://docs.google.com/document/d/1gfnYKaXBJjuyXxL58a5mCCaTVsBt3pqJ-EM7821S-jc/edit?usp=sharing",
@@ -31,10 +31,10 @@ export const skillsSection = {
 			"⚡ Develop highly interactive Front end / User Interfaces for your web applications"
 		),
 		emoji(
-			"⚡ Progressive Web Applications built with Express, React, and Django"
+			"⚡ Progressive Web Applications built with Tech-Stacks such as Express, React, and Django"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase, AWS, Etc."
+			"⚡ Adept at identifying issues with existing software and creating innovative new software programs"
 		),
 	],
 
@@ -67,14 +67,10 @@ export const skillsSection = {
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
-		// {
-		// 	skillName: "flutter",
-		// 	fontAwesomeClassname: "logos:flutter",
-		// },
-		// {
-		// 	skillName: "swift",
-		// 	fontAwesomeClassname: "vscode-icons:file-type-swift",
-		// },
+		{
+			skillName: "postman",
+			fontAwesomeClassname: "logos:postman",
+		},
 		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
@@ -88,8 +84,8 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
 		},
 		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
+			skillName: "postgresql",
+			fontAwesomeClassname: "logos:postgresql",
 		},
 		{
 			skillName: "firebase",
@@ -134,27 +130,9 @@ export const educationInfo = [
 		descBullets: [
 			"Optimized solutions to computer software problems through algorithms, data structures, and scalable code while implementing industry methods to develop full-stack web applications.",
 			"Translated logic into code while collaborating with user experience and UI designs to produce completed fully functional applications for an immersive experience.",
+			"Collaborated with other Developers to create Full-Stack Applications while juggling mock Client requests"
 		],
 	},
-	// {
-	// 	schoolName: "Harvard",
-	// 	subHeader: "Master of Science in Computer Science",
-	// 	duration: "September 2017 - April 2019",
-	// 	desc: "Participated in the research of XXX and published 3 papers.",
-	// 	descBullets: [
-	// 		"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-	// 		"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-	// 	],
-	// },
-	// {
-	// 	schoolName: "Stanford University",
-	// 	subHeader: "Bachelor of Science in Computer Science",
-	// 	duration: "September 2013 - April 2017",
-	// 	desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-	// 	descBullets: [
-	// 		"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-	// 	],
-	// },
 ];
 
 export const experience = [
@@ -186,51 +164,40 @@ export const experience = [
 ];
 
 export const projects = [
-	// {
-	// 	name: "lorem ipsum",
-	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-	// 	link: "https://example.com",
-	// },
-	// {
-	// 	name: "lorem ipsum",
-	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-	// 	github: "https://github.com/1hanzla100",
-	// },
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Dripsy",
+		desc: "A eCommerce Full-Stack Web Application utilizing Python, Django, and PostgreSQL",
+		github: "https://github.com/joshdaos/Dripsy",
+		link: "https://dripsyproject.herokuapp.com/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Wayfarer",
+		desc: "A Social Media / Travel Community Full-Stack Web Application that utilizes Python, Django, and PostgreSQL",
+		github: "https://github.com/joshdaos/Wayfarer",
+		link: "https://project2-wayfarer.herokuapp.com/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
-	},
-	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "GitSumCoffee",
+		desc: "A Coffee Ordering Full-Stack Web Application utilizing JavaScript, Express.js, Node.js, and MongoDB",
+		github: "https://github.com/joshdaos/GitSumCoffee",
+		link: "https://gitsumcoffee.herokuapp.com/",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "Tom Kolsrud",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+			'"Speak softly and carry a big stick -- you will go far. Josh is incredibly patient. Josh is incredibly conscientious. Josh is also a potent intellect. Throughout our time as peers in the Software Engineering Intensive, I never saw him complain, or lose his composure -- yet his skills would also grow in, honestly kind of astonishing, leaps and bounds. Each project was more advanced, and techniques were never set aside, but would continue to develop alongside new ones he was exposed to. In addition to being a quick learner and a skilled leader, Josh has an innate sense for design that elevates his work even further.',
 	},
 	{
-		name: "Maheen Altaf",
+		name: "Ben Dazey",
 		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+			'"Josh is the most humble engineer I have met. He went from struggling with content to being near the top of the class, while staying completely under the radar. When he tackles a problem he does it with a smile and puts hands to keyboard to figure it out. I never once heard him complain, and he was always a positive and effective communicator, letting his work speak volumes for itself. I would count myself lucky to work on a team with Josh again!"',
+	},
+	{
+		name: "Cassie Pitkin",
+		feedback:
+			'"Josh has taken his career change very seriously and will make an incredible software engineer. I look forward to seeing the impact he has on his future companies an I know he will be an incredible asset to any team. As his career coach, I appreciate how serious he is taking his job search!"',
 	},
 ];

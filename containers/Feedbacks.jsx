@@ -17,7 +17,7 @@ const Feedbacks = () => {
 						</div>
 						<div className="pl-4">
 							<h4 className="display-3 text-info">
-								Our Clients Feedback
+							LinkedIn Recommendation Feedback
 							</h4>
 						</div>
 					</div>
