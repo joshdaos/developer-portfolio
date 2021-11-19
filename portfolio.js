@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hello all! I'm Josh Daos",
 	description:
 		"Driven by my curiosity in tech & possessing a passion for solving complex problems, I am a Software Engineer who enjoys transforming applications from logic to production.",
-	resumeLink: "https://docs.google.com/document/d/1gfnYKaXBJjuyXxL58a5mCCaTVsBt3pqJ-EM7821S-jc/edit?usp=sharing",
+	resumeLink: "https://docs.google.com/document/d/15P2WuFGv7EkW9K1cVNyjLTOq13xXvo7KWgysGgioQuY/edit?usp=sharing",
 };
 
 export const openSource = {
