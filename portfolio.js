@@ -182,6 +182,12 @@ export const projects = [
 		github: "https://github.com/joshdaos/GitSumCoffee",
 		link: "https://gitsumcoffee.herokuapp.com/",
 	},
+	{
+		name: "Grootagotchi",
+		desc: "A Tamagotchi game tailored towards the character 'Groot', created with JavaScript, JQuery, HTML, and CSS",
+		github: "https://github.com/joshdaos/Grootagotchi",
+		link: "https://pages.git.generalassemb.ly/joshdaos/Grootagotchi-Project-Zero/",
+	},
 ];
 
 export const feedbacks = [
